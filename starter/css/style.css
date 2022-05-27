@@ -1,0 +1,126 @@
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: inherit; }
+
+body {
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif; }
+
+html {
+  font-size: 62.5%; }
+
+.header-2 {
+  font-size: 4rem;
+  font-weight: 400;
+  line-height: 130%;
+  margin-bottom: 2rem; }
+
+.text--primary {
+  color: #335eea;
+  letter-spacing: 2px;
+  line-height: 130%; }
+
+.text {
+  font-size: 2rem;
+  font-weight: 400; }
+
+.text-small {
+  font-size: 1.6rem;
+  font-weight: 400; }
+
+.text--grey {
+  color: #869ab8;
+  line-height: 170%; }
+
+.margin-bottom-1 {
+  margin-bottom: 1rem; }
+
+.btn {
+  padding: 2rem;
+  text-decoration: none;
+  font-size: 1.6rem;
+  border-radius: 1rem;
+  transition: all 0.5s;
+  color: #fff;
+  font-weight: 400;
+  margin-right: 2rem; }
+  .btn:hover {
+    transform: translateY(-10px); }
+  .btn--primary {
+    background-color: #335eea; }
+  .btn--grey {
+    background-color: #869ab8; }
+
+.container {
+  margin: 3rem 5rem; }
+
+.home {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 7rem 0; }
+  .home__photo {
+    width: 50rem;
+    height: 40rem; }
+  .home__buttons {
+    margin-top: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+
+.icon--right {
+  margin-left: 1rem; }
+
+.welcome {
+  width: 40rem;
+  margin-right: 15rem; }
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-around; }
+  .nav__links {
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+  .nav__items {
+    padding: 1rem 2rem;
+    list-style: none;
+    font-size: 1.6rem;
+    color: #869ab8; }
+    .nav__items:hover {
+      color: #335eea; }
+
+.features {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10rem; }
+  .features__items {
+    width: 35rem; }
+    .features__items:not(:last-child) {
+      padding-right: 5rem; }
+
+.icon {
+  width: 5rem;
+  height: 5rem;
+  margin-bottom: 2rem; }
+
+.companies {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 1px solid #869ab8;
+  border-top: 1px solid #869ab8;
+  margin: 0 -5rem; }
+
+.logos__name {
+  width: 15rem;
+  height: 15rem;
+  fill: #869ab8; }
+
+.logos:not(:last-child) {
+  margin-right: 3rem; }
